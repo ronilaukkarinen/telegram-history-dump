@@ -46,6 +46,7 @@
   # To enable a formatter, uncomment it along with all of its options
   # If no formatters are enabled, only JSON files are produced
   formatters: {
+     irssi: {},
   #  plaintext: {
   #    date_format: '%Y-%m-%d %H:%M:%S'
   #  },
@@ -95,8 +96,7 @@
   delete_media: false
 
   # When a user's real name is formatted, include their last name if possible
-  display_last_name: true
-
+  display_last_name: false
 
   ## Technical options ##
 
@@ -131,7 +131,6 @@
   # Time in seconds to wait before considering a download stuck (0 = infinite)
   # After this time the script skips to the next message
   media_timeout: 100
-
 
   ## Advanced behavior settings ##
 
